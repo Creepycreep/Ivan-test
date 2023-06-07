@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ivan test First page</title>
+
+  <link rel="stylesheet" href="css/my-theme.min.css">
+  <script src="uikit-3-2/js/uikit.min.js"></script>
+  <script src="uikit-3-2/js/uikit-icons.min.js"></script>
+</head>
+
+<body>
+
+  <nav class="uk-navbar-container" uk-navbar>
+    <div class="uk-navbar-left">
+      <a href="index.html" class="uk-logo">NICE LOGO</a>
+    </div>
+
+    <div class="uk-navbar-center">
+      <ul class="uk-navbar-nav">
+        <li class="uk-active">
+          <a href="">Страница 1</a>
+          <div class="uk-navbar-dropdown">
+            <ul class="uk-nav uk-navbar-dropdown-nav">
+              <li><a href="#">Link</a></li>
+              <li><a href="#">Link somewhere <span class="uk-badge">new</span></a>
+              </li>
+              <li><a href="#">link</a></li>
+              <li><a href="#">link</a></li>
+              <li><a href="#">link</a></li>
+            </ul>
+          </div>
+        </li>
+
+        <li>
+          <a href="">Menu 2</a>
+          <div class="uk-navbar-dropdown">
+            <ul class="uk-nav uk-navbar-dropdown-nav">
+              <li><a href="#">link <span class="uk-badge">new</span></a></li>
+              <li><a href="#">link</a></li>
+              <li><a href="#">link</a></li>
+              <li><a href="#">link</a></li>
+            </ul>
+          </div>
+        </li>
+
+        <li>
+          <a href="">Menu 3</a>
+          <div class="uk-navbar-dropdown">
+            <ul class="uk-nav uk-navbar-dropdown-nav">
+              <li><a href="#">link</a></li>
+              <li><a href="#">link</a></li>
+              <li><a href="#">link<span class="uk-badge">new</span></a></li>
+              <li><a href="#">link</a></li>
+              <li><a href="#">link<span class="uk-badge">new</span></a></li>
+              <li><a href="#">link</a></li>
+            </ul>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+    <div class="uk-navbar-right">
+      <div class="uk-grid-small uk-flex-middle" uk-grid>
+        <div class="uk-width-auto">
+          <img class="uk-border-circle" width="50" height="50" src="img/cute.jpg">
+        </div>
+        <h3 class="uk-card-title uk-text-lighter uk-text-middle">Иван Грозный</h3>
+      </div>
+
+      <div class="uk-dropdown" uk-dropdown>
+        <ul class="uk-nav uk-navbar-dropdown-nav">
+          <li><a href="#"><span class="uk-margin-small-right" uk-icon="home"></span> Что-то</a></li>
+          <li><a href="#"><span class="uk-margin-small-right" uk-icon="star"></span>Стать премиум</a></li>
+          <li><a href="#"><span class="uk-margin-small-right" uk-icon="heart"></span> Что-то еще</a></li>
+          <li><a href="#"><span class="uk-margin-small-right" uk-icon="sign-out"></span> Выйти</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="uk-container">
+    <h1 class="uk-heading-primary uk-text-uppercase uk-margin-top">заголовок</h1>
+
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam, repudiandae! Vel voluptatem ab ipsum quam
+      praesentium obcaecati deserunt nostrum, impedit consequatur cum architecto corporis facilis molestias vero,
+      officia expedita. Iste aspernatur dignissimos reiciendis qui blanditiis sapiente at adipisci doloribus, ratione
+      hic perferendis? Commodi quo autem distinctio quam officiis sapiente maxime.</p>
+
+    <form class="uk-form-horizontal ">
+      <div class="uk-margin">
+        <label class="uk-form-label" for="name">
+          Введите Ваше имя:
+        </label>
+
+        <div class="uk-form-controls uk-margin-remove">
+          <input class="uk-input uk-form-width-medium" id="name" type="text" placeholder="Иван">
+        </div>
+      </div>
+
+      <div class="uk-margin uk-flex uk-flex-middle ">
+        <label class="uk-form-label uk-margin-remove" for="check">
+          Получать рассылку с плюшками:
+        </label>
+
+        <div class="uk-form-controls uk-margin-remove">
+          <input class="uk-checkbox " id="check" type="checkbox">
+        </div>
+      </div>
+
+      <div class="uk-margin">
+        <label class="uk-form-label" for="select">
+          Выберите Ваш город:
+        </label>
+
+        <div class="uk-form-controls uk-margin-remove">
+          <select class="uk-select uk-form-width-medium" id="select">
+            <option>Москва</option>
+            <option>Санкт-Петербург</option>
+            <option>Остальная Россия</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="uk-margin">
+        <button class="uk-button uk-button-primary">Назад</button>
+        <button class="uk-button uk-button-primary">Вперед</button>
+      </div>
+
+      <button class="uk-button uk-button-secondary uk-block" type="reset">Очистить</button>
+    </form>
+
+  </div>
+</body>
+
+</html>
